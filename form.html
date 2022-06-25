@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <h1 ><i>BHARATH UNIVERSITY</i></h1>
+    <fieldset>
+    <h2><b>Student Registration Form</b></h1>
+    <div>
+        
+        <form action="form.php">
+            <p><sup>Name*-</sup><input type="text" placeholder="Enter your name"></p>
+            <p><sup>DOB*-</sup><input type="date" placeholder="DDMMYYYY"></p>
+            <p>Father's name-<input type="text" placeholder="Enter your father's name"></p>
+            <p>Mother's name-<input type="text" placeholder="Enter your mother's name"></p>
+            <p><sup>Address*-</sup><input type="text" placeholder="Enter your adress"></p>
+
+            <label for="sectionida">
+            <p><sup>Gender*-</sup><input type="radio" value="section a  "name="section" id="sectionida">male</label>
+
+            <label for="sectionidb">
+                <input type="radio" value="section b" name="section" id="secction b">female
+            </label>
+            <label for="sectionidc">
+                <input type="radio" value="section c" name="section" id="section c">transgender
+            </label></p>
+
+
+            <p>Email-<input type="email" placeholder="Enter your email"></p>
+            <p>School-<input type="text" placeholder="Enter your school"></p>
+            <p>Department-<input type="text" placeholder="Enter your department">
+            Course-<input type="text" placeholder="Enter your course"></p>
+            <label for="hostel"></label>
+            <p>Phone number <input type="tel"></p>
+
+            <label for="hostelida">
+        <p>Do you want hostel??
+            <input type="radio" name="want hostel">yes 
+           <input type="radio" name="want hostel" id="">no
+        </label>
+        </p>
+        </label><hr><br>
+        <p>Upload passport size photo:<input type="file" name="file" id="">
+        Upload signature:<input type="file" name="file"></p>
+        <input type="submit"><hr>
+        <input type="reset">
+        <p>feedback <input type="range"></p>
+
+        </form>
+    </fieldset>
+    </div>
+</body>
+</html>
